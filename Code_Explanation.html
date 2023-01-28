@@ -1,0 +1,6 @@
+This code uses the cv2.VideoCapture(0) function to open the default camera on your device. The camera.read() function is used to capture a single frame from the camera.
+The cv2.imwrite('image.jpg', image) function is used to save the image to the specified location. It takes two arguments, the first one is the path where you want to save the image and the second one is the image that you want to save.
+
+In this example, the image will be saved in the current working directory with the name 'image.jpg'.
+
+Note that, del(camera) is used to release the camera after the image is saved.
